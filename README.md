@@ -22,10 +22,21 @@ employee.transfer?(2)
 This is like ruby's ".try()" but with the following syntax:
 
 ```ruby
-e = Employee.new
-e.transfer?(1)
-
-
+class Employee
+  def department
+    'Accounting'
+  end
+end
+> e = Employee.new
+=> #<Employee:0x007fdb6a215e10>
+> e.transfer?(1)
+nil
+> e.transfer(1)
+=> NoMethodError: undefined method transfer' for #<Employee:0x007fdb6a215e10>
+> e.department
+ => "Accounting"
+> e.department?
+ => "Accounting"
 ```
 
 The above should not fail if the method doesn't exist.
