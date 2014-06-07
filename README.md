@@ -32,7 +32,7 @@ end
 > e.transfer?(1)
 nil
 > e.transfer(1)
-=> NoMethodError: undefined method transfer' for #<Employee:0x007fdb6a215e10>
+=> NoMethodError: undefined method 'transfer' for #<Employee:0x007fdb6a215e10>
 > e.department
  => "Accounting"
 > e.department?
