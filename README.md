@@ -1,5 +1,5 @@
 # Swift-Ruby
-## Attempting to bring some of the nice features from Swift to Ruby.
+***Attempting to bring some of the nice features from Swift to Ruby.***
 
 ---
 
@@ -28,6 +28,6 @@ e.transfer?(1)
 
 The above should not fail if the method doesn't exist.
 
-spec: [spec/question_mark_for_method_calls_spec.rb](spec/question_mark_for_method_calls_spec.rb)
-code: [question_mark_for_method_calls.rb](question_mark_for_method_calls.rb)
+* spec: [spec/question_mark_for_method_calls_spec.rb](spec/question_mark_for_method_calls_spec.rb)
+* code: [question_mark_for_method_calls.rb](question_mark_for_method_calls.rb)
 
