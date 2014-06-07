@@ -8,7 +8,7 @@
 ---
 I created this project mostly as a stub, with only one implementation - hoping you will step in and create additional implementations for features you like in swift.
 
-Also I'm not tied to the naming, structure, testing framework, or anything. If anyone is willing to help out, you will get a lot of say :)
+Also I'm not tied to the naming, structure, testing framework, refactoring, or anything. If anyone is willing to help out, you will get a lot of say :)
 ### 1. Question mark for method calls:
 
 (Swift's Optionals: http://stackoverflow.com/questions/24057171/what-the-meaning-of-question-mark-in-swift)
