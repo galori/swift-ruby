@@ -23,7 +23,7 @@ describe 'Question Mark for Method Calls' do
   it 'should call the method if it exists' do
     str = "sample string"
     expect{
-      str.chomp("g")
+      str.chomp?("g")
     }.not_to raise_error
   end
 end
