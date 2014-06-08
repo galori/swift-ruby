@@ -7,7 +7,7 @@ class Object
 
     if is_conditional
       if self.respond_to?(real_method)
-        self.send(real_method,args)
+        self.send(real_method,*args)
       end
     else
       super
